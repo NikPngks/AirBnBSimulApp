@@ -1,0 +1,12 @@
+[
+  {
+    "roomName": "A cozy apartment in Athens ",
+    "area": "ANO PATISIA",
+    "price": 30,
+    "numberOfReviews": 1,
+    "noOfPerson": 2,
+    "availability_365": 298,
+    "stars": 3,
+    "roomImage": [ "\\Users\\...enter_the_photos_path...\\A cozy apartment in Athens .jpg" ],
+    "idManager": 16
+}]
