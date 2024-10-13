@@ -10,10 +10,8 @@ public class Reducer {
 	private static final long serialVersionUID = 8626459955423694374L;
 	ServerSocket providerReducerSocket;
 	Socket connectionWR = null;
-
 	private List<ManagerPack> packetsM = new ArrayList<>();
 	private List<UserPack> packetsU = new ArrayList<>();
-
 	public static final int PORT = 9876; // Reducer's port
 
 	public static void main(String args[]) {
