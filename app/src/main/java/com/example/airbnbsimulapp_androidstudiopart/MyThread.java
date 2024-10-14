@@ -29,7 +29,7 @@ public class MyThread extends Thread{
         Bundle b = new Bundle();
         int indicator;
         try {
-            requestSocketToMaster = new Socket("10.9.101.153", 1234);
+            requestSocketToMaster = new Socket("0.0.0.0", 1234); //you have to add your Master's host here
             out = new ObjectOutputStream(requestSocketToMaster.getOutputStream());
             in = new ObjectInputStream(requestSocketToMaster.getInputStream());
             out.writeObject(this.t); //here I send it to MASTER
