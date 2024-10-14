@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View4"
+    android:background="@drawable/backapp1">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--<PROXEIRO TextView GIA THN METAFORA TOU ID, label04 > -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEW LABEL"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginTop="25dp"
+            android:id="@+id/label04"/>
+
+        <!--<PROXEIRO 1ST DAY, label05> -->
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose the first day that you want to book XML"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_error"
+            android:id="@+id/label05"/>
+        <!--<PROXEIRO 1ST DAY, date01> -->
+        <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:minDate="01/01/2024"
+            android:maxDate="12/31/2024"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:layout_marginTop="10dp"
+            android:id="@+id/date01"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp">
+            <!--<PROXEIRO TextView NUM OF BOOK DAYS, label06> -->
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:text="Complete the number of the days you want to book XML"
+                android:textSize="20dp"
+                android:textColor="@color/design_default_color_error"
+                android:id="@+id/label06"/>
+            <!--<PROXEIRO EditText NUM OF BOOK DAYS, input01> -->
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:hint="num of days"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColorHint="@color/cardview_dark_background"
+                android:textColor="@color/cardview_light_background"
+                android:id="@+id/input01"
+                android:shadowColor="@color/black"
+                android:shadowRadius="65"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--<PROXEIRO TextView AREAS> -->
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Complete the name of the room that you want to book: XML"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/design_default_color_error"
+            android:id="@+id/label07"/>
+        <!--<PROXEIRO EditText 1st AREA, input02> -->
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Input HERE the room's name"
+            android:textColorHint="@color/cardview_dark_background"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:id="@+id/input02"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:id="@+id/btn04"/>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="............................ XML"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:id="@+id/label15"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>
